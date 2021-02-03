@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="267dp"
+        android:layout_height="240dp"
         android:background="#142FC5"
         >
     </ImageView>
@@ -56,9 +56,9 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal">
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/address"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/profil"
                     android:background="@color/white"
                     android:onClick="profil">
                 </ImageView>
@@ -66,24 +66,40 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Profil"
-                    android:textSize="24dp"
+                    android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/white">
+                    android:textColor="@color/black">
                 </TextView>
+
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/address"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:src="@drawable/prestasi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Prestasi"
-                    android:textSize="24dp"
+                    android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/white">
+                    android:textColor="@color/black">
+                </TextView>
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/informasi"
+                    android:background="@color/white">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
                 </TextView>
 
             </LinearLayout>
@@ -94,33 +110,48 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal">
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/address"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/tugassekolah"
                     android:background="@color/white">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sejarah"
-                    android:textSize="24dp"
+                    android:text="Tugas"
+                    android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/white">
+                    android:textColor="@color/black">
                 </TextView>
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/address"
+                    android:src="@drawable/eskul"
                     android:background="@color/white">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ekstrakulikuler"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/white">
+                    android:textColor="@color/black">
+                </TextView>
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/absensi"
+                    android:background="@color/white">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Absen"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
                 </TextView>
             </LinearLayout>
         </LinearLayout>
