@@ -110,13 +110,13 @@
                 android:layout_height="match_parent"
                 android:background="#FF7207"
                 android:gravity="center_horizontal">
+
                 <ImageView
                     android:layout_width="95dp"
-                    android:layout_height="95dp"
-                    android:src="@drawable/tugassekolah"
+                    android:layout_height="100dp"
                     android:background="#FF7207"
-                    android:onClick="tugas">
-                </ImageView>
+                    android:onClick="tugas"
+                    android:src="@drawable/tugassekolah"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

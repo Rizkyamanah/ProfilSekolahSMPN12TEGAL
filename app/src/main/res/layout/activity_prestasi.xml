@@ -11,36 +11,196 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="350dp"
-            android:layout_weight="1"
+            android:layout_height="240dp"
+            android:src="@drawable/prestasi1">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:background="#8F000000"
+            android:textStyle="bold"
+            android:text="PRESTASI"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
-            <ImageView
+
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:layout_marginTop="50dp"
-                android:background="@color/white"
-                android:src="@drawable/prestasi1">
-            </ImageView>
+                android:layout_height="match_parent">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="BERIKUT INI TENTANG PRESTASI SMPN 12 TEGAL"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold">
-            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="206dp"
-                android:layout_height="72dp"
-                android:text="Punten">
-            </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text=":" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
 
-        </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text=":" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text=":" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text=":" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text=":" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="SMPN 12 TEGAL" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
     </LinearLayout>
 </RelativeLayout>
