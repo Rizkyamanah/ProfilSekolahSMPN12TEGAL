@@ -21,7 +21,7 @@
                 android:layout_height="160dp"
                 android:layout_marginTop="50dp"
                 android:background="@color/black"
-                android:src="@drawable/informasi1">
+                android:src="@drawable/informasi">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"

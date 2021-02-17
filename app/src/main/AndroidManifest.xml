@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfilSekolahSMPN12TEGAL">
-        <activity android:name=".AbsenActivity"></activity>
+        <activity android:name=".SilatActivity"></activity>
+        <activity android:name=".BadmintonActivity" />
+        <activity android:name=".VollyActivity" />
+        <activity android:name=".FutsalActivity" />
+        <activity android:name=".AbsenActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
-        <activity android:name=".TugasActivity" />
+        <activity android:name=".AgendaActivity" />
         <activity android:name=".InformasiActivity" />
         <activity android:name=".PrestasiActivity" />
         <activity android:name=".ProfilActivity" />

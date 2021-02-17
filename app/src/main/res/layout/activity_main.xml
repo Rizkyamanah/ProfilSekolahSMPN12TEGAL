@@ -53,12 +53,12 @@
                 android:layout_width="0dp"
                 android:orientation="vertical"
                 android:layout_height="match_parent"
-                android:background="#FF7207"
+                android:background="#03A9F4"
                 android:gravity="center_horizontal">
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
-                    android:background="#FF7207"
+                    android:background="#03A9F4"
                     android:onClick="profil"
                     android:src="@drawable/profil">
                 </ImageView>
@@ -74,7 +74,7 @@
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:background="#FF7207"
+                    android:background="#03A9F4"
                     android:src="@drawable/prestasi"
                     android:onClick="prestasi">
                 </ImageView>
@@ -91,7 +91,7 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/informasi"
-                    android:background="#FF7207"
+                    android:background="#03A9F4"
                     android:onClick="informasi">
                 </ImageView>
                 <TextView
@@ -108,19 +108,20 @@
                 android:layout_width="0dp"
                 android:orientation="vertical"
                 android:layout_height="match_parent"
-                android:background="#FF7207"
+                android:background="#03A9F4"
                 android:gravity="center_horizontal">
 
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="100dp"
-                    android:background="#FF7207"
+                    android:background="#03A9F4"
                     android:onClick="tugas"
-                    android:src="@drawable/tugassekolah"></ImageView>
+                    android:src="@drawable/tugassekolah">
+                </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tugas"
+                    android:text="Agenda"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
@@ -130,7 +131,7 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/eskul"
-                    android:background="#FF7207"
+                    android:background="#03A9F4"
                     android:onClick="ekstrakulikuler">
                 </ImageView>
                 <TextView
@@ -146,7 +147,7 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/absensi"
-                    android:background="#FF7207"
+                    android:background="#03A9F4"
                     android:onClick="absen">
                 </ImageView>
                 <TextView

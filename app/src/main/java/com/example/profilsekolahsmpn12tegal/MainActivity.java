@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void tugas(View view){
-        Intent intent=new Intent(MainActivity.this, TugasActivity.class);
+        Intent intent=new Intent(MainActivity.this, AgendaActivity.class);
         startActivity(intent);
 
     }
@@ -41,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
     public void absen(View view){
         Intent intent=new Intent(MainActivity.this, AbsenActivity.class);
         startActivity(intent);
-
     }
+
 }
