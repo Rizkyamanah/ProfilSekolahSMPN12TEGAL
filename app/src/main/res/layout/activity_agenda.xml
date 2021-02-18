@@ -60,14 +60,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Setiap hari Senin pada dasarnya semua sekolah akan melaksanakan kegiatan Upacara"
+                    android:text="Setiap hari Senin SMP N 12 TEGAL mengadakan agenda upacaara yang dilaksanakan oleh semua siswa-siswi dan guru.Petugas yang diminta ditunjuk perkelas oleh guru pemimpin osis.oleh karena itu,siswa-siswi mempunyai pengalaman untuk menjadi petugas upacara."
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:textStyle="bold">
-
                 </TextView>
-
             </LinearLayout>
+
 
 
 
