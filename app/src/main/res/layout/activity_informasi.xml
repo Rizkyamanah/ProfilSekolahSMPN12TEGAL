@@ -4,46 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrestasiActivity">
-
+    tools:context=".InformasiActivity">
+    
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="350dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:layout_marginTop="50dp"
-                android:background="@color/black"
-                android:src="@drawable/informasi">
-            </ImageView>
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#03A9F4">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="BERIKUT INI TENTANG INFORMASI SMPN 12 TEGAL"
+                android:text="INFORMASI"
+                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold">
-            </TextView>
+                android:textSize="45dp"/>
+        </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="171dp"
-                android:layout_height="74dp"
-                android:text="TextView" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="#03A9F4">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:src="@drawable/info">
+                </ImageView>
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="170dp"
-                android:layout_height="70dp"
-                android:text="TextView" />
+
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
