@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FutsalActivity">
-    
-    
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,18 +16,48 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:orientation="vertical"
-            android:background="#03A9F4"
-            android:gravity="center">
+            android:gravity="center"
+            android:background="#03A9F4">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="FUTSAL"
-                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="45dp"
-                android:textStyle="bold"/>
+                android:textColor="@color/black"/>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="#03A9F4">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:src="@drawable/putsal"
+                    android:layout_marginTop="-10dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berikut beberapa contoh kegiatan latian futsal oleh SMPN 12 TEGAL"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center">
+                </TextView>
 
+
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
-
 </RelativeLayout>

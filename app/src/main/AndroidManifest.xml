@@ -13,7 +13,7 @@
         <activity android:name=".BadmintonActivity" />
         <activity android:name=".VollyActivity" />
         <activity android:name=".FutsalActivity" />
-        <activity android:name=".AbsenActivity" />
+        <activity android:name=".VisimisiActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".AgendaActivity" />
         <activity android:name=".InformasiActivity" />
