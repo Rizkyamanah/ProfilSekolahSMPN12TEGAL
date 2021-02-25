@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -19,101 +18,100 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:orientation="vertical"
+                android:layout_height="60dp"
                 android:gravity="center"
-                android:background="#03A9F4">
-
+                android:orientation="vertical">
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="AGENDA"
+                    android:text="UPACARA"
+                    android:gravity="center"
+                    android:background="#61000000"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="50dp"
-                    android:textStyle="bold"/>
-
+                    android:textSize="40dp"/>
             </LinearLayout>
 
-            <LinearLayout
+
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="480dp"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:background="#0003A9F4">
-                <LinearLayout
-                    android:layout_width="410dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:orientation="vertical"
-                    android:background="@color/white">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:src="@drawable/upacara"
-                        android:layout_marginTop="-15dp">
-                    </ImageView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="UPACARA"
-                        android:textSize="40dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="Setiap hari Senin SMPN 12 TEGAL mengadakan agenda upacara yang dilaksanakan oleh semua siswa-siswi dan guru. Petugas yang diminta ditunjuk perkelas oleh guru pemimpin osis. Oleh karena itu,siswa-siswi mempunyai pengalaman untuk menjadi petugas upacara."
-                        android:textColor="@color/black"
-                        android:textSize="19dp"
-                        android:textStyle="bold">
-                    </TextView>
-                </LinearLayout>
+                android:layout_height="200dp"
+                android:src="@drawable/upacara"></ImageView>
 
-            </LinearLayout>
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="245dp"
-                android:layout_weight="0"
-                android:orientation="horizontal"
-                android:background="@color/white">
-                <LinearLayout
-                    android:layout_width="410dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:orientation="vertical"
-                    android:background="@color/white">
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Setiap hari Senin SMPN 12 TEGAL mengadakan agenda upacara yang dilaksanakan oleh semua siswa-siswi dan guru. Petugas yang diminta ditunjuk perkelas oleh guru pemimpin osis. Oleh karena itu,siswa-siswi mempunyai pengalaman untuk menjadi petugas upacara"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold">
+            </TextView>
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:src="@drawable/agenda">
-                    </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#61000000"
+                android:gravity="center"
+                android:text="PRAMUKA"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="NASI GRATIS"
-                        android:textSize="40dp"
-                        android:textColor="@color/black"
-                        android:textStyle="bold">
-                    </TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="Pada hari jumat hal membagikan nasi gratis itu sudah terbiasa hingga menjadikan agar kita selalu beramal meskipun tidak harus dengan tenaga"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textSize="20dp">
-                    </TextView>
+            </TextView>
 
-                </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pramuka">
+            </ImageView>
 
-            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="Setiap hari jumat akan diadakan Pramuka Pada dasarnya kegiatan Kepramukaan memiliki tujuan untuk melatih generasi muda agar memaksimalkan setiap potensi yang ada di dalam dirinya, baik itu intelektual, spiritual, sosial, dan fisik."
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="PONGGOL GRATIS"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#61000000"
+                android:textSize="40dp"
+                android:gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/agenda">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="Setiap hari jumat diadakan Pembagian ponggol gratis setiap pagi bagi yang berangkat lebih awal "
+                android:textStyle="bold">
+            </TextView>
+
+
+
+
+
         </LinearLayout>
+
     </ScrollView>
+
 </RelativeLayout>

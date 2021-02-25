@@ -6,58 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".VisimisiActivity">
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:background="#03A9F4">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="VISI"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textStyle="bold">
+           </TextView>
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="VISI MISI"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Menjadi SMP NEGERI yang unggul dalam IMTAQ, IPTEK, dan Berbudaya Lingkungan Yang Berwawasan Global."
                 android:textStyle="bold"
-                android:textSize="45dp"
-                android:textColor="@color/black"/>
+                android:textSize="14dp"
+                android:paddingLeft="10dp"
+                android:gravity="center">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="MISI"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                android:paddingLeft="8dp"
+                android:text="1. Menumbuh kembangkan penghayatan dan pengalaman nilai-nilai agama yang dianut.
+
+                              2. Melaksanakan kegiatan pembelajaran dan bimbingan secara efektif, efisien/PAIKEMBAR
+
+                              3. Mengembangkan program sekolah berbasis ilmu dan teknologi.
+
+                              4. Menciptakan masyarakat sekolah yang berbudaya lingkungan.
+
+                              5. Menjadi pelopor pembaharuan pendidikan yang berwawasan global
+
+  "
+                android:textSize="20dp">
+            </TextView>
+
+
+
+
         </LinearLayout>
+    </ScrollView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="490dp"
-            android:layout_weight="2"
-            android:orientation="horizontal"
-            android:background="@color/white">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:orientation="vertical"
-                android:background="#03A9F4">
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="275dp"
-                    android:src="@drawable/absensiguru"
-                    android:layout_marginTop="-15dp">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Berikut adalah daftar hadir bapak/ibu guru SMPN 12 TEGAL"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:gravity="center">
-                </TextView>
-
-
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
 </RelativeLayout>
