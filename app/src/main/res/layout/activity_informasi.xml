@@ -43,8 +43,18 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
-                    android:src="@drawable/info">
+                    android:src="@drawable/PPDB">
                 </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Berisikan tentang informasi sekolah"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal">
+                </TextView>
+
 
 
             </LinearLayout>
