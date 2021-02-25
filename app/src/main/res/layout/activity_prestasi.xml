@@ -40,30 +40,40 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:background="#03A9F4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berikut beberapa contoh prestasi yang diraih oleh SMPN 12 TEGAL"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:text="FUTSAL"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:paddingRight="260dp"
+                    android:paddingTop="15dp">
+                </TextView>
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
-                    android:src="@drawable/piala"
-                    android:layout_marginTop="-10dp">
+                    android:src="@drawable/futsall">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Berikut beberapa contoh prestasi yang diraih oleh SMPN 12 TEGAL"
-                    android:textSize="20dp"
+                    android:layout_height="70dp"
+                    android:text="Juara 3 lomba Sepakbola tingkat Kota/Kabupten Tegal"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:gravity="center">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Berikut beberapa contoh prestasi yang diraih oleh SMPN 12 TEGAL"
                     android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
                     android:gravity="center">
                 </TextView>
+
 
                 
             </LinearLayout>
