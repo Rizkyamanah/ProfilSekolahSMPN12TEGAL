@@ -43,7 +43,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
-                    android:src="@drawable/PPDB">
+                    android:src="@drawable/ppdb2">
                 </ImageView>
                 <TextView
                     android:layout_width="match_parent"

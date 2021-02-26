@@ -56,7 +56,6 @@
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textSize="40dp"
-                    android:paddingRight="260dp"
                     android:paddingTop="15dp">
                 </TextView>
                 <ImageView
