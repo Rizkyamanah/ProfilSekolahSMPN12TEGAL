@@ -14,7 +14,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="20dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -53,14 +54,14 @@
                 android:layout_width="0dp"
                 android:orientation="vertical"
                 android:layout_height="match_parent"
-                android:background="#03A9F4"
+                android:background="#0003A9F4"
                 android:gravity="center_horizontal">
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:onClick="profil"
-                    android:src="@drawable/profil">
+                    android:src="@drawable/profile">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -74,7 +75,7 @@
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:src="@drawable/prestasi"
                     android:onClick="prestasi">
                 </ImageView>
@@ -91,7 +92,7 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/informasi"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:onClick="informasi">
                 </ImageView>
                 <TextView
@@ -108,15 +109,15 @@
                 android:layout_width="0dp"
                 android:orientation="vertical"
                 android:layout_height="match_parent"
-                android:background="#03A9F4"
+                android:background="#0003A9F4"
                 android:gravity="center_horizontal">
 
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="100dp"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:onClick="tugas"
-                    android:src="@drawable/tugassekolah">
+                    android:src="@drawable/agenda">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -130,8 +131,8 @@
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/eskul"
-                    android:background="#03A9F4"
+                    android:src="@drawable/eks12"
+                    android:background="#0003A9F4"
                     android:onClick="ekstrakulikuler">
                 </ImageView>
                 <TextView
@@ -147,7 +148,7 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/absensi"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:onClick="absen">
                 </ImageView>
                 <TextView
