@@ -17,7 +17,7 @@
             android:layout_height="80dp"
             android:orientation="vertical"
             android:gravity="center"
-            android:background="#03A9F4">
+            android:background="#0003A9F4">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,12 +39,12 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
-                android:background="#03A9F4">
+                android:background="#0003A9F4">
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="100dp"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:src="@drawable/futsal"
                     android:onClick="futsal">
                 </ImageView>
@@ -60,7 +60,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="70dp"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:src="@drawable/volly"
                     android:onClick="volly">
                 </ImageView>
@@ -78,13 +78,13 @@
                 android:orientation="vertical"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:background="#03A9F4">
+                android:background="#0003A9F4">
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="100dp"
                     android:src="@drawable/badminton"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:onClick="badminton">
                 </ImageView>
                 <TextView
@@ -100,7 +100,7 @@
                     android:layout_height="150dp"
                     android:layout_marginTop="70dp"
                     android:src="@drawable/silat"
-                    android:background="#03A9F4"
+                    android:background="#0003A9F4"
                     android:onClick="silat">
                 </ImageView>
                 <TextView
