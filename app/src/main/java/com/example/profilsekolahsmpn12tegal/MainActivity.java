@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void absen(View view){
-        Intent intent=new Intent(MainActivity.this, VisimisiActivity.class);
+        Intent intent=new Intent(MainActivity.this, FasilitasActivity.class);
         startActivity(intent);
     }
 

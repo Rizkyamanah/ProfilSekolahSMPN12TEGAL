@@ -43,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Berikut beberapa contoh prestasi yang diraih oleh SMPN 12 TEGAL"
+                    android:text="Berikut Beberapa Contoh Prestasi Yang Diraih Oleh SMPN 12 TEGAL"
                     android:textSize="20dp"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -66,7 +66,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="70dp"
-                    android:text="Juara 3 lomba Sepakbola tingkat Kota/Kabupten Tegal"
+                    android:text="Juara 3 Lomba Sepakbola Tingkat Kota/Kabupten Tegal"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:textSize="20dp"

@@ -66,23 +66,24 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Profil"
+                    android:text="PROFIL"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold">
                 </TextView>
+
                 <ImageView
                     android:layout_width="95dp"
-                    android:layout_height="95dp"
+                    android:layout_height="102dp"
                     android:layout_marginTop="40dp"
                     android:background="#0003A9F4"
-                    android:src="@drawable/prestasi"
-                    android:onClick="prestasi">
+                    android:onClick="prestasi"
+                    android:src="@drawable/prestasi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Prestasi"
+                    android:text="PRESTASI"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
@@ -98,7 +99,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Informasi"
+                    android:text="INFORMASI"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
@@ -117,12 +118,13 @@
                     android:layout_height="95dp"
                     android:background="#0003A9F4"
                     android:onClick="tugas"
+                    android:paddingTop="5sp"
                     android:src="@drawable/agenda">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Agenda"
+                    android:text="AGENDA"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
@@ -138,7 +140,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ekstrakulikuler"
+                    android:text="EKSTRAKURIKULER"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
@@ -154,7 +156,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Visi/Misi"
+                    android:text="FASILITAS"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
