@@ -10,68 +10,138 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <LinearLayout
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
 
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="50dp"
-               android:text="VISI"
-               android:gravity="center"
-               android:textSize="18dp"
-               android:textStyle="bold"
-               android:textColor="@color/black">
-           </TextView>
-
-            <TextView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Menjadi SMP NEGERI yang unggul dalam IMTAQ, IPTEK, dan Berbudaya Lingkungan Yang Berwawasan Global."
-                android:textStyle="bold"
-                android:textSize="14dp"
-                android:paddingLeft="10dp"
-                android:gravity="center"
-                android:textColor="@color/black">
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
 
-            </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/perpustakaan" />
+            </androidx.cardview.widget.CardView>
 
-            <TextView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="MISI"
-                android:gravity="center"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:textColor="@color/black">
-            </TextView>
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
 
-            <TextView
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5sp"
+                    android:text="PEPUSTAKAAN"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5sp"
+                    android:text="Fasilitas Perpustakaan
+•	Information Desk. Tempat bertanya mengenai berbagai informasi yang berkaitan dengan perpustakaan UPI
+•	Locker Room
+•	Lobby
+•	Library Lounge
+•	Multimedia Room
+•	Fotocopy Center
+•	Mushola
+•	BI Corner.
+
+"
+                    android:textColor="#000"
+                    android:textSize="10sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="356dp"
-                android:paddingLeft="3dp"
-                android:text="1. Menumbuh kembangkan penghayatan dan pengalaman nilai-nilai agama yang dianut.
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
 
-                              2. Melaksanakan kegiatan pembelajaran dan bimbingan secara efektif, efisien/PAIKEMBAR
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/mushola" />
+            </androidx.cardview.widget.CardView>
 
-                              3. Mengembangkan program sekolah berbasis ilmu dan teknologi.
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
 
-                              4. Menciptakan masyarakat sekolah yang berbudaya lingkungan.
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5sp"
+                    android:text="MUSHOLA"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
-                              5. Menjadi pelopor pembaharuan pendidikan yang berwawasan global
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5sp"
+                    android:text="Mushola adalah tempat beribadah umat manusia khusunya umat islam, maka dari itu musholla adalah fasilitas terpenting bagi umat muslim "
+                    android:textColor="#000"
+                    android:textSize="10sp" />
 
-  "
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:textColor="@color/black">
-            </TextView>
 
-
-
-
-        </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
     </ScrollView>
 
 </RelativeLayout>
