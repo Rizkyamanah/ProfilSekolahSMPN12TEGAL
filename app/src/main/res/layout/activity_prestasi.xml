@@ -7,75 +7,140 @@
     tools:context=".PrestasiActivity">
 
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:background="#0003A9F4">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="PRESTASI"
-                android:textStyle="bold"
-                android:textSize="45dp"
-                android:textColor="@color/black"/>
-        </LinearLayout>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="490dp"
-            android:layout_weight="2"
-            android:orientation="horizontal"
-            android:background="@color/white">
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
                 android:orientation="vertical"
-                android:background="#0003A9F4">
+                android:gravity="center">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Berikut Beberapa Contoh Prestasi Yang Diraih Oleh SMPN 12 TEGAL"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:gravity="center">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="70dp"
-                    android:text="FUTSAL"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="40dp"
-                    android:paddingTop="15dp">
-                </TextView>
-                <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="230dp"
-                    android:src="@drawable/futsall">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="70dp"
-                    android:text="Juara 3 Lomba Sepakbola Tingkat Kota/Kabupten Tegal"
+                    android:layout_height="wrap_content"
+                    android:text="SEPAK BOLA"
+                    android:gravity="center"
                     android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:gravity="center">
-                </TextView>
-
-
-                
+                    android:textSize="40dp"/>
             </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/futsall">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:text="Juara II Lomba Sepak Bola tingkat Kota Tegal 2008"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MADING"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mading">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juara I Lomba Mading tingkat Kota Tegal tahun 2006"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MELUKIS"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/melukis">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juara I Lomba Melukis tingkat Kota Tegal tahun 2006"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BULU TANGKIS"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tangkisbulu">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juara II Lomba Bulutangkis tingkat Kota Tegal tahun 2008"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOMBA LARI"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/lari">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juara II Lomba Lari 100m tingkat Kota Tegal tahun 2009"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

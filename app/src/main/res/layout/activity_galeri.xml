@@ -23,11 +23,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="GALERI"
+                    android:text="KEGIATAN SOSIALISASI"
                     android:gravity="center"
-                    android:background="#61000000"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
-                    android:textSize="40dp"
+                    android:textSize="30dp"
                     android:paddingTop="-10dp"/>
             </LinearLayout>
 
@@ -40,14 +40,33 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="match_parent"
+                android:text="LOMBA TARIK TAMBANG"
                 android:gravity="center"
-                android:layout_gravity="center_horizontal"
-                android:text="KEGIATAN SOSIALISASI"
-                android:textSize="25dp"
+                android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textColor="@color/black">
+                android:textSize="30dp">
             </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tariktambang">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PEMILIHAN CALON KETUA OSIS"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="30dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/calonosis">
+            </ImageView>
 
         </LinearLayout>
 
