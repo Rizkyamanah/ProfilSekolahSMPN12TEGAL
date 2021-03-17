@@ -99,7 +99,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="INFORMASI"
+                    android:text="GALERI"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
