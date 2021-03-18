@@ -141,6 +141,30 @@
                 android:textColor="@color/black"
                 android:textStyle="bold">
             </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOMBA CATUR"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="40dp">
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/catur">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juara I Lomba Catur Putra tingkat Kota Tegal tahun 2010"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
