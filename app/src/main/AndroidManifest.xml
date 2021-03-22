@@ -15,7 +15,7 @@
         <activity android:name=".FutsalActivity" />
         <activity android:name=".FasilitasActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
-        <activity android:name=".AgendaActivity" />
+        <activity android:name=".GuruActivity" />
         <activity android:name=".GaleriActivity" />
         <activity android:name=".PrestasiActivity" />
         <activity android:name=".ProfilActivity" />
