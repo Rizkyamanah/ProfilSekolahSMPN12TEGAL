@@ -138,8 +138,62 @@
                     android:text="Mushola adalah tempat beribadah umat manusia khusunya umat islam, maka dari itu musholla adalah fasilitas terpenting bagi umat muslim "
                     android:textColor="#000"
                     android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
 
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/labkom" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5sp"
+                    android:text="LAB KOMPUTER"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5sp"
+                    android:text="Laboratorium komputer sekolah
+
+Laboratorium adalah tempat belajar mengajar melalui metode praktikum yang dapat menghasilkan pengalaman belajar dimana siswa berinteraksi dengan berbagai alat dan bahan untuk mengobservasi gejala-gejala yang dapat diamati secara langsung dan membuktikan sendiri sesuatu yang dipelajari jadi suatu laboratorium sekolah mempunyai peranan yang sangat penting dalam upaya meningkatkan mutu serta system pengajaran."
+                    android:textColor="#000"
+                    android:textSize="10sp" />
             </androidx.cardview.widget.CardView>
         </GridLayout>
     </ScrollView>

@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:background="@drawable/smp12">
+        android:background="@drawable/gurube">
 
     </ImageView>
     <LinearLayout
@@ -61,7 +61,7 @@
                     android:layout_height="95dp"
                     android:background="#0003A9F4"
                     android:onClick="profil"
-                    android:src="@drawable/profile">
+                    android:src="@drawable/profil111">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
                     android:layout_marginTop="40dp"
                     android:background="#0003A9F4"
                     android:onClick="prestasi"
-                    android:src="@drawable/prestasi">
+                    android:src="@drawable/prestasi2">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -92,7 +92,7 @@
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/informasi"
+                    android:src="@drawable/galery"
                     android:background="#0003A9F4"
                     android:onClick="informasi">
                 </ImageView>
@@ -119,12 +119,12 @@
                     android:background="#0003A9F4"
                     android:onClick="tugas"
                     android:paddingTop="5sp"
-                    android:src="@drawable/agenda">
+                    android:src="@drawable/teacher">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="AGENDA"
+                    android:text="GURU"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
