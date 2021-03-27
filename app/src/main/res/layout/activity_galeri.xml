@@ -77,10 +77,28 @@
                 android:textStyle="bold"
                 android:textSize="30dp">
             </TextView>
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:src="@drawable/senampagi">
+            </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TADARUS"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="30dp">
+                </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/tadarus">
+
             </ImageView>
         </LinearLayout>
 
