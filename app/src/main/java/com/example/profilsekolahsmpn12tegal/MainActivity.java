@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void informasi(View view){
-        Intent intent=new Intent(MainActivity.this, GaleriActivity.class);
+        Intent intent=new Intent(MainActivity.this, VisimisiActivity.class);
         startActivity(intent);
 
     }

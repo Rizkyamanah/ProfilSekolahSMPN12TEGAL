@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisimisiActivity">
+    
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#D8D6D6"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="VISI"
+                android:textSize="40dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="110dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="TERAMPIL DALAM BERKARYA, BERPRESTASI, BERKEPRIBADIAN BERLANDASKAN IMAN DAN TAQWA, PEDULI LINGKUNGAN, SERTA MENGUASAI IPTEK"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_17sdp"
+                    android:textStyle="bold">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:orientation="vertical"
+                android:layout_margin="1dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="#D8D6D6"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="MISI"
+                    android:textSize="40dp"
+                    android:textStyle="bold">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="10dp"
+                        android:text="1. MEWUJUDKAN PEMBINAAN DAN PEMBEKALAN KEPADA PESERTA DIDIK SESUAI DENGAN BAKAT DAN MINAT PESERTA DIDIK.
+                                                            2. MEWUJUDKAN KESADARAN PESERTA DIDIK DALAM BERDISIPLIN SECARA EFEKTIF.
+                                            3. MEWUJUDKAN PELAYANAN BELAJAR PESERTA DIDIK YANG EFEKTIF DALAM RANNGKA PEROLEHAN NILAI MATA PELAJARAN YANG MEMENUHI STANDAR PENDIDIKAN NASIONAL.
+4. MEWUJUDKAN SARANA DAN PRASARANA PESERTA DIDIK UNTUK MENUNJANG PRESTASI AKADEMIK DAN NON AKADEMIK.
+
+5. MEWUJUDKAN KEIMANAN DAN KETAQWAAN KEPADA TUHAN YANG MAHA ESA DALAM PERGAULAN DI SEKOLAH DAN DI MASYARAKAT.
+
+6. MENDIDIK PESERTA DIDIK MENJADI PRIBADI YANG MENGHARGAI DAN PEDULI TERHADAP LINGKUNGAN HIDUP SERTA BERPERAN AKTIF DALAM KEGIATAN PENCEGAHAN PENCEMARAN, PENCEGAHAN KERUSAKAN DAN PEDULI TERHADAP PELESTARIAN LINGKUNGAN HIDUP.
+
+7. MENCIPTAKAN SEKOLAH SEBAGAI TAMAN BELAJAR YANG MENYENANGKAN.
+
+8. MEWUJUDKAN PESERTA DIDIK YANG MAMPU MENGUASAI TEKNOLOGI INFORMASI.
+
+9. MISI MERUPAKAN KEGIATAN JANGKA PANJANG YANG MASIH PERLU DIURAIKAN MENJADI BEBERAPA KEGIATAN YANG MEMILIKI TUJUAN LEBIH DETAIL DAN LEBIH JELAS.
+"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold">
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
