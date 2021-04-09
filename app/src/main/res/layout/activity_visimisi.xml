@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,6 +10,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,7 +45,7 @@
                     android:paddingLeft="10dp"
                     android:text="TERAMPIL DALAM BERKARYA, BERPRESTASI, BERKEPRIBADIAN BERLANDASKAN IMAN DAN TAQWA, PEDULI LINGKUNGAN, SERTA MENGUASAI IPTEK"
                     android:textAlignment="center"
-                    android:textSize="@dimen/_17sdp"
+                    android:textSize="@dimen/_12sdp"
                     android:textStyle="bold">
                 </TextView>
             </LinearLayout>
@@ -64,6 +70,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -84,14 +91,69 @@
 9. MISI MERUPAKAN KEGIATAN JANGKA PANJANG YANG MASIH PERLU DIURAIKAN MENJADI BEBERAPA KEGIATAN YANG MEMILIKI TUJUAN LEBIH DETAIL DAN LEBIH JELAS.
 "
                         android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="#D8D6D6"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="TUJUAN"
+                    android:textSize="40dp"
+                    android:textStyle="bold">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="936dp"
+                        android:paddingLeft="10dp"
+                        android:text="1. MAMPU MEMENUHI PESERTA DIDIK UNTUK MEMILIKI KETRAMPILAN DALAM BIDANG OLAHRAGA, KESENIAN DAN PRAKARYA.
+                                                                        2. MAMPU MEMENUHI PESERTA DIDIK YANG MEMPEROLEH NIALAI DIATAS KBM SETIAP MATA PELAJARAN DAN LULUS 100% DENGAN PEROLEHAN NILAI RATA-RATA UJIAN SEKOLAH 6,5
+                                                                                        3. MAMPU MENINGKATKAN PROSENTASI PESRTA DIDIK YANG MELANJUTKAN PENDIDIKAN KE JENJANG YANG LEBIH TINGGI.
+                                                                                        4. MAMPU MEMENUHI PESERTA DIDIK UNTUK MEMLIKI PRESTASI DALAM BIDANG AKADEMIK, BERHASIL MASUK 10 BESARDI TINGKAT KOTA TEGAL.
+
+                                                                                        5. MAMPU MEMENUHI PESERTA DIDIK UNTUK MEMILIKI PRESTASI DALAM BIDANG NONAKADEMIK MINIMAL MASUK 3BESAR DI KOTA TEGAL.
+
+                                                                            6. MAMPU MEMENUHI PESERTA DIDIK UNTUK DAPAT MENERAPKAN ILMU PENGETAHUAN DAN TEKNOLOGI BIDANG SAINS DAN MATEMATIKA DI SEKOLAH DAN MASYARAKAT.
+
+                                                                            7. MAMPU MEMENUHI PESERTA DIDIK UNTUK MEMILIKI KEPRIBADIAN LUHUR SESUAI DENGAN NILAI-NILAI AGAMA, SOSIAL DAN BUDAYA BANGSA INDONESIA.
+
+                                                                            8. MAMPU MEMENUHI PESERTA DIDIK UNTUK MEMILIKI KEPEDULIAN TERHADAP KEBERSIHAN DAN PENGHIJAUAN DI LINGKUNGAN SEKOLAH  DAN MASYARAKAT.
+
+                                                                            9. MAMPU MEMENUHI PESERTA DIDIK DAPAT MENJALANKAN IBADAH SESUAI DENGAN AJARAN AGAMA YANG DIANUTNYA.
+
+                                                                            10. MAMPU MEMENUHI PESERTA DIDIK DAPAT MENERAPKAN PENGALAMAN NILAI-NILAI AGAMA DALAM PERGAULAN DI SEKOLAH DAN MASYARAKAT.
+
+                                                                            11. MAMPU MEMENUHI PESERTA DIDIK DAPAT MEWUJUDKAN LINGKUNGAN YANG ASRI SEBAGAI WAWASAN WIYATA MANDALA.
+
+                                                                            12. MAMPU MEMENUHI PESERTA DIDIK DALAM MEWUJUDKAN BUDAYA SEKOLAH YANG BERSIH DAN BEBAS POLUSI.
+
+                                                                            13. MAMPU MEMENUHI PESERTA DIDIK DALAM PENGUASAAN ILMU DAN TEKONOLOGI (ITE) SEBAGAI PENUNJANG BERKOMPETISI DALAM KEHIDUPAN NYATA.
+
+                                                                                        14. MAMPU MEWUJUDKAN UNTUK BERPRDIKAT SEBAGAI SEKOLAH ADIWIYATA TINGKAT KOTA.
+
+"
+                        android:textSize="@dimen/_12sdp"
                         android:textStyle="bold">
+
                     </TextView>
                 </LinearLayout>
-
             </LinearLayout>
-
         </LinearLayout>
+        </RelativeLayout>
 
     </ScrollView>
 
-</RelativeLayout>
+</LinearLayout>

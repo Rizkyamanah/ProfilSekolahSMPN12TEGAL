@@ -1,14 +1,14 @@
-package com.example.profilsekolahsmpn12tegal;
+package com.profilesekolah.smpn12tegal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FasilitasActivity extends AppCompatActivity {
+public class VollyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fasilitas);
+        setContentView(R.layout.activity_volly);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.profilsekolahsmpn12tegal;
+package com.profilesekolah.smpn12tegal;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
