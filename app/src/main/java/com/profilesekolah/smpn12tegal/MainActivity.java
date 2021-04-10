@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void ekstrakulikuler(View view){
-        Intent intent=new Intent(MainActivity.this, EkstrakulikulerActivity.class);
+        Intent intent=new Intent(MainActivity.this, AdiwiyataActivity.class);
         startActivity(intent);
 
     }

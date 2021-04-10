@@ -9,12 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfilSekolahSMPN12TEGAL">
-        <activity android:name="com.profilesekolah.smpn12tegal.SilatActivity" />
-        <activity android:name="com.profilesekolah.smpn12tegal.BadmintonActivity" />
-        <activity android:name="com.profilesekolah.smpn12tegal.VollyActivity" />
-        <activity android:name="com.profilesekolah.smpn12tegal.FutsalActivity" />
         <activity android:name="com.profilesekolah.smpn12tegal.FasilitasActivity" />
-        <activity android:name="com.profilesekolah.smpn12tegal.EkstrakulikulerActivity" />
+        <activity android:name="com.profilesekolah.smpn12tegal.AdiwiyataActivity" />
         <activity android:name="com.profilesekolah.smpn12tegal.GuruActivity" />
         <activity android:name="com.profilesekolah.smpn12tegal.VisimisiActivity" />
         <activity android:name="com.profilesekolah.smpn12tegal.PrestasiActivity" />
