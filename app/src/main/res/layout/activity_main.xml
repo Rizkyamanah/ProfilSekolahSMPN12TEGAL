@@ -59,12 +59,12 @@
                 android:gravity="center_horizontal">
 
                 <ImageView
-                    android:layout_width="95dp"
-                    android:layout_height="95dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#0003A9F4"
                     android:onClick="profil"
                     android:paddingTop="5sp"
-                    android:src="@drawable/profil111">
+                    android:src="@drawable/profile">
                 </ImageView>
 
                 <TextView
