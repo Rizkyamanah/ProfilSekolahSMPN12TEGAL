@@ -195,6 +195,60 @@ Laboratorium adalah tempat belajar mengajar melalui metode praktikum yang dapat 
                     android:textColor="#000"
                     android:textSize="10sp" />
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/labipa" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5sp"
+                    android:text="LAB IPA"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5sp"
+                    android:text="Laboratorium SMPN 12 TEGAL terdiri dari Lab Fisika, Kimia dan Biologi, masing-masing terdiri dari dua loal , satu lokal digunakan kegiatan KBM sekaligus praktikum untuk siswa."
+                    android:textColor="#000"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
         </GridLayout>
     </ScrollView>
 
